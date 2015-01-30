@@ -28,3 +28,4 @@ gem 'puma'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'rspec-rails', :group => :test
+gem 'rails_12factor'

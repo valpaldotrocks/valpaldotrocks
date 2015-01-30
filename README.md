@@ -1,4 +1,4 @@
-
+[![Code Climate](https://codeclimate.com/github/valpaldotrocks/valpaldotrocks/badges/gpa.svg)](https://codeclimate.com/github/valpaldotrocks/valpaldotrocks)
 
 Almost empty project based on http://www.angularonrails.com/ruby-on-rails-angularjs-single-page-application/
 

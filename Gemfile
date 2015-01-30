@@ -11,7 +11,7 @@ gem 'spring', :group => :development
 
 gem 'pg'
 gem 'newrelic_rpm'
-gem 'rollbar', '~> 1.2.7'
+gem 'rollbar'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

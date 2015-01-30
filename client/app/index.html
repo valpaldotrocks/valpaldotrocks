@@ -35,11 +35,11 @@ var _rollbarConfig = {
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#">Contact</a></li>
-          <li ng-show="!user.id"><a ng-href="#/sign_in">Sign in</a></li>
+          <li ng-class="{ active: isActive('/') }"><a ng-href="#/">Home</a></li>
+          <li ng-class="{ active: isActive('/pals') }"  ng-show="user.id" ><a ng-href="#/pals">Pals</a></li>
+          <li ng-class="{ active: isActive('/sign_in') }" ng-show="!user.id"><a ng-href="#/sign_in">Sign in</a></li>
           <li ng-show="user.id"><a ng-click='signOut()'>Sign out</a></li>
+
         </ul>
         <h3 class="text-muted">ValPal.Rocks</h3>
       </div>
@@ -90,6 +90,7 @@ var _rollbarConfig = {
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/user_sessions.js"></script>
+        <script src="scripts/controllers/user_registrations.js"></script>
         <script src="scripts/controllers/pals.js"></script>
         <!-- endbuild -->
 </body>

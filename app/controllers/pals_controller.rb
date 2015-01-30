@@ -1,4 +1,6 @@
 class PalsController < ApplicationController
+  before_filter :authenticate_user!
+
   before_action :set_pal, only: [:show, :update, :destroy]
 
   # GET /pals

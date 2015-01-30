@@ -10,10 +10,11 @@ gem 'spring', :group => :development
 
 
 gem 'pg'
-gem 'newrelic_rpm'
-gem 'rollbar'
+gem 'newrelic_rpm', :group => :production
+gem 'rollbar', :group => :production
 gem 'omniauth'
 gem 'devise_token_auth'
+gem 'responders', '~> 2.0'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -18,11 +18,12 @@ gem 'pg'
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
-# Use unicorn as the app server
-# gem 'unicorn'
+gem 'puma'
 
 # Deploy with Capistrano
 # gem 'capistrano', :group => :development
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+gem 'rspec-rails', :group => :test
